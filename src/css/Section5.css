@@ -1,0 +1,67 @@
+.section05 {
+  width: 100vw;
+  font-family: "Viga";
+  background-color: lightblue;
+}
+
+.section05-title {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 80px;
+}
+.section05-col1-title {
+  font-size: 60px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section05-row-project {
+  /* border: red solid 2px; */
+  position: relative;
+  width: 100vw;
+}
+.patcherImg {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+}
+.section05-project-img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+.section05-project-col {
+  height: 50vh;
+  /* border: red solid 2px; */
+}
+.section05-col1 {
+  border-right: black 1px solid;
+  height: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .section05-project-col {
+    background-color: blue;
+
+    width: 100vw;
+  }
+  .section05-col1-title {
+    font-size: 50px;
+  }
+  .section05-project-img {
+    width: 100%;
+
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px; */
+  }
+}
