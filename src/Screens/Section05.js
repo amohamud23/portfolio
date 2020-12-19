@@ -1,6 +1,6 @@
 import React from "react";
 import "./../css/Section5.css";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Patcher from "../assets/patcher.png";
 import Lidar from "../assets/lidar.png";
 import LidarCar from "../assets/LidarCar.png";

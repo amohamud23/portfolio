@@ -1,7 +1,6 @@
 import React from "react";
 import "./../css/Section4.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { Chart } from "react-google-charts";
 import ReactImg from "../assets/react.png";
 import NodeImg from "../assets/nodejs.png";
 import DjangoImg from "../assets/django.png";

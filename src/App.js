@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Section01 from "./Screens/Section01";
 import Section02 from "./Screens/Section02";
 import Section03 from "./Screens/Section03";

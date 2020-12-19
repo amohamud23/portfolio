@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBMask, MDBView } from "mdbreact";
 
 class HoverImage extends React.Component {
   render() {
