@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+.section2 {
+  width: 100%;
+  /* height: 100vh; */
+
+  background-color: black;
+  /* background-image: url(../assets/me.jpg); */
+}
+
+.userPic {
+  width: 100%;
+}
+
+.section2-cols {
+  /* border: 2px blue solid; */
+
+  height: 100vh;
+}
+
+.aboutme {
+  /* border-color: red; */
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-style: italic;
+
+  width: 70%;
+}
+
+.imgContainer {
+  width: 80%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: red solid; */
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.description {
+  display: inline-block;
+  font-size: 20px;
+  text-indent: 30px;
+  line-height: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@keyframes section {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .aboutme {
+    /* border-color: red; */
+    /* border-width: 8px; */
+    /* border-style: solid; */
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-style: italic;
+    min-width: 380px;
+    padding: 10px;
+  }
+}
