@@ -26,7 +26,7 @@ class Experience extends React.Component {
             <div className="section03-container">
               <h1 className="company-title">Guess Who</h1>
               <h3 className="company-role">Position: Full Stack Engineer</h3>
-              <h4>Auguest 2020 - Present</h4>
+              <h4 className="company-date">Auguest 2020 - Present</h4>
               <ul className="company-description">
                 <li>
                   {" "}
@@ -91,7 +91,7 @@ class Experience extends React.Component {
               <h3 className="company-role">
                 Position: Software Engineer Intern
               </h3>
-              <h4>May 2020 - Aug 2020</h4>
+              <h4 className="company-date">May 2020 - Aug 2020</h4>
               <ul className="company-description">
                 <li>
                   {" "}
