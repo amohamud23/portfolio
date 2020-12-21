@@ -26,6 +26,7 @@ class Experience extends React.Component {
             <div className="section03-container">
               <h1 className="company-title">Guess Who</h1>
               <h3 className="company-role">Position: Full Stack Engineer</h3>
+              <h4>Auguest 2020 - Present</h4>
               <ul className="company-description">
                 <li>
                   {" "}
@@ -45,7 +46,7 @@ class Experience extends React.Component {
             </div>
           </Col>
         </Row>
-        <Row className="section03-row">
+        {/* <Row className="section03-row">
           <Col lg={true}>
             <div className="section03-company-logo">
               <Zoom>
@@ -75,7 +76,7 @@ class Experience extends React.Component {
               </ul>
             </div>
           </Col>
-        </Row>
+        </Row> */}
         <Row className="section03-row" style={{}}>
           <Col lg={true}>
             <div className="section03-company-logo">
