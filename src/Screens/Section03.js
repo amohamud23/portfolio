@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import Adventure from "../assets/adventure-logo.png";
 import GuessWho from "../assets/guessWho.png";
 import Zoom from "react-reveal/Zoom";
-import PineLogo from "../assets/PineLogo.png";
+// import PineLogo from "../assets/PineLogo.png";
 
 class Experience extends React.Component {
   render() {
