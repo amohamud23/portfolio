@@ -50,6 +50,10 @@ class Projects extends React.Component {
                 Developed multiple pages on the React framework and using
                 Firebase as my database and authentication.
               </li>
+              <li>
+                The project is a web application an mobile app in conjuction for
+                the drivers to communicate to dispatchers.
+              </li>
             </ul>
           </Col>
 
@@ -112,6 +116,11 @@ class Projects extends React.Component {
               <li>
                 The vehicle completely mapped an area of 12m radius using a
                 collection of 3D points to create geographical image.
+              </li>
+              <li>
+                A RasberryPi unit was used to send and recieve data from my
+                Lidar unit. I transmitted the data to an access point and send
+                that data to my laptop.
               </li>
             </ul>
           </Col>
@@ -176,6 +185,7 @@ class Projects extends React.Component {
                 The prototype unit, while connected to a motor, seamlessly
                 followed me around aligning me with the screens.
               </li>
+              <li></li>
             </ul>
           </Col>
           <Col className="section05-project-col" lg={true}>

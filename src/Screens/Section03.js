@@ -29,17 +29,17 @@ class Experience extends React.Component {
               <ul className="company-description">
                 <li>
                   {" "}
-                  Led a team of software engineer interns to implement a
-                  prototype Text to Speech feature using agile methodologies.
+                  Lead Engineer on a mobile game project designing the software
+                  and design the database models using Swift and Mongo.
                 </li>
                 <li>
                   {" "}
-                  Used React, NodeJS, and Twitch to send Ethereum tokens to
-                  user's Metamask Wallet on the Rinkeby Test Network
+                  Built the entire backend service that handles http requests
+                  from our game and deployed it on GCP and MongoDB.
                 </li>
                 <li>
-                  Developed on a team to build a game using Web-sockets to send
-                  real time player updates to multiple game rooms.
+                  Responsible for integrating our backend service on the app and
+                  testing game functionality ensure user satisfaction.
                 </li>
               </ul>
             </div>
@@ -60,17 +60,17 @@ class Experience extends React.Component {
               <ul className="company-description">
                 <li>
                   {" "}
-                  Led a team of software engineer interns to implement a
-                  prototype Text to Speech feature using agile methodologies.
+                  Co - Founded a startup which focuses on the development of a
+                  mobile app that will buy/sell US stocks to Africans.
                 </li>
                 <li>
                   {" "}
-                  Used React, NodeJS, and Twitch to send Ethereum tokens to
-                  user's Metamask Wallet on the Rinkeby Test Network
+                  Currently building out user verification for the UI to verify
+                  all users on our platform are authenticated.
                 </li>
                 <li>
-                  Developed on a team to build a game using Web-sockets to send
-                  real time player updates to multiple game rooms.
+                  Working in an agile environment to complete 1 screen per week
+                  in collaboration with the design team using React Native.
                 </li>
               </ul>
             </div>

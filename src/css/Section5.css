@@ -1,6 +1,6 @@
 .section05 {
   font-family: "Viga";
-  background-color: lightblue;
+  background-color: #f4f4f8;
   padding-left: 5%;
   padding-right: 5%;
   justify-items: center;
@@ -17,8 +17,6 @@
   margin-top: 20%;
 }
 .section05-row-project {
-  background-color: ghostwhite;
-  border-radius: 100px;
   margin: 100px;
 }
 .patcherImg {

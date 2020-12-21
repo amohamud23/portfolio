@@ -11,7 +11,7 @@
 }
 
 .section03 {
-  background-color: darkseagreen;
+  background-color: #009fb7;
   padding-top: 5%;
   padding-bottom: 5%;
 
@@ -49,10 +49,11 @@
   font-size: 50px;
 }
 .company-role {
+  font-weight: 500;
 }
 .company-description {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
 }
 
