@@ -1,7 +1,9 @@
 .section05 {
-  width: 100vw;
   font-family: "Viga";
   background-color: lightblue;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-items: center;
 }
 
 .section05-title {
@@ -11,24 +13,19 @@
 }
 .section05-col1-title {
   font-size: 60px;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 20%;
 }
 .section05-row-project {
-  /* border: red solid 2px; */
-  position: relative;
-  width: 100vw;
+  background-color: ghostwhite;
+  border-radius: 100px;
+  margin: 100px;
 }
 .patcherImg {
-  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 400px;
 }
 .section05-project-img {
   width: 100%;
@@ -36,7 +33,8 @@
   max-width: 400px;
 }
 .section05-project-col {
-  height: 50vh;
+  height: 60vh;
+  width: 70%;
   /* border: red solid 2px; */
 }
 .section05-col1 {
@@ -44,24 +42,45 @@
   height: 100%;
   text-align: center;
 }
+.expandImg {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+}
 
 @media screen and (max-width: 992px) {
   .section05-project-col {
-    background-color: blue;
-
-    width: 100vw;
   }
   .section05-col1-title {
-    font-size: 50px;
+    font-size: 30px;
+    text-align: center;
   }
   .section05-project-img {
-    width: 100%;
-
-    /* margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 300px; */
+    margin-top: 0px;
+    height: 100%;
+    width: auto;
+  }
+  .section05-project-col {
+    height: auto;
+    /* border: red solid 2px; */
+  }
+  .patcherImg {
+    height: 100%;
+    margin-top: 30px;
+  }
+  .section05-col1-title {
+    padding-top: 20%;
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+  }
+  .section05-row-project {
+    background-color: ghostwhite;
+    border-radius: 50px;
+    margin: 100px;
   }
 }
