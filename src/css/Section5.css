@@ -1,8 +1,6 @@
 .section05 {
   font-family: "Viga";
   background-color: #f4f4f8;
-  padding-left: 5%;
-  padding-right: 5%;
   justify-items: center;
 }
 
@@ -32,7 +30,6 @@
 }
 .section05-project-col {
   height: 60vh;
-  width: 70%;
   /* border: red solid 2px; */
 }
 .section05-col1 {
@@ -79,6 +76,5 @@
   .section05-row-project {
     background-color: ghostwhite;
     border-radius: 50px;
-    margin: 100px;
   }
 }
