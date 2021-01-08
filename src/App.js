@@ -10,11 +10,11 @@ import Projects from "./pages/Projects";
 import Resumes from "./pages/Resumes";
 
 function App() {
-  const [lightMode, setLightMode] = useState(false); // Made it true if you want to load your site light mode primary
+  // const [lightMode, setLightMode] = useState(false); // Made it true if you want to load your site light mode primary
 
-  lightMode
-    ? document.body.classList.add("light")
-    : document.body.classList.remove("light");
+  // lightMode
+  //   ? document.body.classList.add("light")
+  //   : document.body.classList.remove("light");
 
   // const handleMode = () => {
   //   if (!lightMode) {
@@ -36,7 +36,7 @@ function App() {
       </div> */}
       <Switch>
         <Route path="/" exact>
-          <Home lightMode={lightMode} />
+          <Home lightMode={false} />
         </Route>
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resumes} />
