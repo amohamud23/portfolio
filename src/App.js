@@ -1,9 +1,7 @@
-import React, { useState } from "react";
-import * as Icon from "react-feather";
+import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.scss";
 import About from "./pages/About";
-import BlogDetails from "./pages/BlogDetails";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -12,21 +10,21 @@ import Projects from "./pages/Projects";
 import Resumes from "./pages/Resumes";
 
 function App() {
-  const [lightMode, setLightMode] = useState(false); // Made it true if you want to load your site light mode primary
+  // const [lightMode, setLightMode] = useState(false); // Made it true if you want to load your site light mode primary
 
-  lightMode
-    ? document.body.classList.add("light")
-    : document.body.classList.remove("light");
+  // lightMode
+  //   ? document.body.classList.add("light")
+  //   : document.body.classList.remove("light");
 
-  const handleMode = () => {
-    if (!lightMode) {
-      setLightMode(true);
-      document.body.classList.add("light");
-    } else {
-      setLightMode(false);
-      document.body.classList.remove("light");
-    }
-  };
+  // const handleMode = () => {
+  //   if (!lightMode) {
+  //     setLightMode(true);
+  //     document.body.classList.add("light");
+  //   } else {
+  //     setLightMode(false);
+  //     document.body.classList.remove("light");
+  //   }
+  // };
 
   return (
     <BrowserRouter>
@@ -38,7 +36,7 @@ function App() {
       </div> */}
       <Switch>
         <Route path="/" exact>
-          <Home lightMode={lightMode} />
+          <Home lightMode={false} />
         </Route>
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resumes} />

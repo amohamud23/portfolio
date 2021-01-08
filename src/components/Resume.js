@@ -8,7 +8,6 @@ function Resume(props) {
     university,
     company,
     details,
-    description,
   } = props.resumeData;
   return (
     <div className="mi-resume mt-30">
