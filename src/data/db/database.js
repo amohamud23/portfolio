@@ -22,8 +22,8 @@ const database = {
       github: "https://github.com/amohamud23",
     },
     brandImage: "/images/profile_img.jpg",
-    aboutImage: "/images/about-image-me.jpg",
-    aboutImageLg: "/images/about-image-me-lg.jpg",
+    aboutImage: "/images/about-image-me.JPG",
+    aboutImageLg: "/images/about-image-me-lg.JPG",
     resumefile: "/files/Abdi_Mohamud_Resume.pdf",
   },
   services: [
